@@ -139,7 +139,7 @@ function goNext() {
 }
 function goPrevious() {
   try {
-    OCA.Audioplayer.Core.Player.actions.next();
+    OCA.Audioplayer.Core.Player.actions.prev();
     playbackStatus = mellowplayer.PlaybackStatus.PLAYING
   } catch (e) { }
 }
